@@ -1,2 +1,7 @@
 /cache/
 /config/development/
+results/OneRegPerVid_VisReg/*
+results/permutation/*
+.ipynb_checkpoints/*
+__pycache__
+fmriprep/*
