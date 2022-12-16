@@ -2,6 +2,7 @@
 /config/development/
 results/OneRegPerVid_VisReg/*
 results/permutation/*
+results/permutation_test/*permutation_distribution*
 .ipynb_checkpoints/*
 __pycache__
 fmriprep/*
