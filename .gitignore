@@ -6,3 +6,5 @@ results/permutation_test/*permutation_distribution*
 .ipynb_checkpoints/*
 __pycache__
 fmriprep/*
+in_dev_scripts/
+in_dev_scripts/*
