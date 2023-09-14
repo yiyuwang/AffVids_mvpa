@@ -65,19 +65,19 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # directories
-glm_dir = '/work/abslab/Yiyu/AffVids/fmri_results/model2_OneRegPerVid_VisReg/1stLvl/'
-res_dir = '/work/abslab/Yiyu/AffVids/fmri_results/SG12_permutation/'
+glm_dir = '/fmri_results/model2_OneRegPerVid_VisReg/1stLvl/'
+res_dir = '/AffVids/fmri_results/SG12_permutation/'
        
 if not os.path.isdir(res_dir):
         os.mkdir(res_dir)
         
 # masks:
-mask_path ='/work/abslab/Yiyu/AffVids/masks/FSL_binary_MNI152_T1_3mm_brain.nii.gz'
+mask_path ='/masks/FSL_binary_MNI152_T1_3mm_brain.nii.gz'
 mask = nib.load(mask_path)
 
 
 #load behavioral data
-behavdata_dir =  '/work/abslab/Yiyu/AffVids/BehavData/'
+behavdata_dir =  '/BehavData/'
 
 zratings = glob.glob(behavdata_dir +'AffVids_novel_interpolated_rating_zscored.csv')
 zratings = pd.read_csv(zratings[0],index_col=0).reset_index()
