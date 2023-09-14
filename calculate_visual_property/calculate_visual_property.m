@@ -29,11 +29,15 @@ for k = 1:length(f)
     % imwrite(frames,['Frame' int2str(i), '.jpg']);
     
     % calculate luminance
-    R=frames(:,:,1);
-    G=frames(:,:,2);
-    B=frames(:,:,3);
-    luminance = 0.299 * R + 0.587 * G + 0.114 * B;
-    mean_luminance = mean(luminance,'all');
+    % 1. without tool box:
+    % R=frames(:,:,1);
+    % G=frames(:,:,2);
+    % B=frames(:,:,3);
+    % luminance = 0.299 * R + 0.587 * G + 0.114 * B;
+    % mean_luminance = mean(luminance,'all');
+
+    % 2. luminance with toolbox:
+    mean_luminance = mean2(rgb2gray(frames))
     
     % calclate contrast
     mean_contrast = max(luminance(:)) - min(luminance(:));
