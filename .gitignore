@@ -2,6 +2,8 @@
 /config/development/
 results/OneRegPerVid_VisReg/*
 results/permutation/*
+results/permutation
+results/searchlight_lassopcr
 results/permutation_test/*permutation_distribution*
 .ipynb_checkpoints/*
 __pycache__
