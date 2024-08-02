@@ -5,6 +5,7 @@ results/permutation/*
 results/permutation
 results/searchlight_lassopcr
 results/permutation_test/*permutation_distribution*
+results/visual_decoder/*
 .ipynb_checkpoints/*
 __pycache__
 fmriprep/*
