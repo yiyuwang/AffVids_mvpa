@@ -65,7 +65,7 @@ import sys
 
 # directories
 glm_dir = '/work/abslab/Yiyu/AffVids/fmri_results/OneRegPerVid_VisReg/1stLvl/'
-res_dir = '/work/abslab/Yiyu/AffVids/fmri_results/visual_decoder/'
+res_dir = '/work/abslab/Yiyu/AffVids/fmri_results/stim_constant/'
        
 if not os.path.isdir(res_dir):
         os.mkdir(res_dir)
