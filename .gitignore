@@ -8,10 +8,9 @@ results/permutation_test/*permutation_distribution*
 results/stim_constant/*
 .ipynb_checkpoints/*
 __pycache__
-fmriprep/*
-in_dev_scripts/
-in_dev_scripts/*
 confonds/*
 logfiles/*
 logfiles
 confounds
+add_visual_reg
+add_visual_reg/*
