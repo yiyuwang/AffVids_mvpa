@@ -4,7 +4,7 @@
 
 ---
 ## Neural Predictors of Subjective Fear depend on the Situation
-This is the repo for hosting the analysis code for our paper <i> Neural Predictors of Fear depend on the Situation </i> published at Journal Of Neuroscience. If you have any questions, or find any bugs (or broken links), please email me at yiyuwang@stanford.edu. A copy of a preprint is available [here](https://www.biorxiv.org/content/10.1101/2022.10.20.513114v1).
+This repository contains the analysis code for our paper Neural Predictors of Fear Depend on the Situation, published in the Journal of Neuroscience. If you have any questions, please feel free to contact me via email. A preprint of the paper is available [here](https://www.biorxiv.org/content/10.1101/2022.10.20.513114v1).
 
 ### Data
 LASSOPCR+Searchlight results, permutation test results, and behavioral data can be downloaded here: 
@@ -20,7 +20,7 @@ LASSOPCR+Searchlight results, permutation test results, and behavioral data can 
 * [Create Permutation distributions](3_Permutation.ipynb)
 * [Permutation testing](4_PermutationTest_organize.ipynb)  
 * [Results summary and visualization](5_Visualization.ipynb)
-* [Supplementary Analysis: Stimulus Constant Analysis 10-11](SUPPLEMENTARY_11_Organize_Visualize_StimConstant.ipynb)
+* [Supplementary Analysis: Stimulus Constant Analysis](SUPPLEMENTARY_11_Organize_Visualize_StimConstant.ipynb)
 
 
 
